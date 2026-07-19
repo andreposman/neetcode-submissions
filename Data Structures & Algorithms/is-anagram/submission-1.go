@@ -1,5 +1,6 @@
 func isAnagram(s string, t string) bool {
-
+//5ms submission
+	
 freqS := make(map[rune]int) 
 freqT := make(map[rune]int) 
 
